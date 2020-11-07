@@ -1,7 +1,6 @@
 #' @param place degrees or "melt" or "boil"
 #' @return solid, liquid, gas or degrees
 #' @export
-
 toketeru.He = function(number) {
         if (number =="boil"){
         return("-269")
@@ -25,6 +24,7 @@ toketeru.He = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.H = function(number) {
         if (number =="boil"){
         return("-253")
@@ -48,6 +48,7 @@ toketeru.H = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ne = function(number) {
         if (number =="boil"){
         return("-246")
@@ -71,6 +72,7 @@ toketeru.Ne = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.N = function(number) {
         if (number =="boil"){
         return("-196")
@@ -94,6 +96,7 @@ toketeru.N = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.F = function(number) {
         if (number =="boil"){
         return("-188")
@@ -117,6 +120,7 @@ toketeru.F = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ar = function(number) {
         if (number =="boil"){
         return("-186")
@@ -140,6 +144,7 @@ toketeru.Ar = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.O = function(number) {
         if (number =="boil"){
         return("-183")
@@ -163,6 +168,7 @@ toketeru.O = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Kr = function(number) {
         if (number =="boil"){
         return("-153")
@@ -186,6 +192,7 @@ toketeru.Kr = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Xe = function(number) {
         if (number =="boil"){
         return("-108")
@@ -209,6 +216,7 @@ toketeru.Xe = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Rn = function(number) {
         if (number =="boil"){
         return("-62")
@@ -232,6 +240,7 @@ toketeru.Rn = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Cl = function(number) {
         if (number =="boil"){
         return("-35")
@@ -255,6 +264,7 @@ toketeru.Cl = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Br = function(number) {
         if (number =="boil"){
         return("58.8")
@@ -278,6 +288,7 @@ toketeru.Br = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.I = function(number) {
         if (number =="boil"){
         return("184")
@@ -301,6 +312,7 @@ toketeru.I = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.P = function(number) {
         if (number =="boil"){
         return("280")
@@ -324,6 +336,7 @@ toketeru.P = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.At = function(number) {
         if (number =="boil"){
         return("337")
@@ -347,6 +360,7 @@ toketeru.At = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Hg = function(number) {
         if (number =="boil"){
         return("357")
@@ -370,6 +384,7 @@ toketeru.Hg = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.S = function(number) {
         if (number =="boil"){
         return("445")
@@ -393,6 +408,7 @@ toketeru.S = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.As = function(number) {
         if (number =="boil"){
         return("613")
@@ -416,6 +432,7 @@ toketeru.As = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Fr = function(number) {
         if (number =="boil"){
         return("677")
@@ -439,6 +456,7 @@ toketeru.Fr = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Cs = function(number) {
         if (number =="boil"){
         return("678")
@@ -462,6 +480,7 @@ toketeru.Cs = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Se = function(number) {
         if (number =="boil"){
         return("685")
@@ -485,6 +504,7 @@ toketeru.Se = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Rb = function(number) {
         if (number =="boil"){
         return("688")
@@ -508,6 +528,7 @@ toketeru.Rb = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.K = function(number) {
         if (number =="boil"){
         return("760")
@@ -531,6 +552,7 @@ toketeru.K = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Na = function(number) {
         if (number =="boil"){
         return("883")
@@ -554,6 +576,7 @@ toketeru.Na = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Zn = function(number) {
         if (number =="boil"){
         return("907")
@@ -577,6 +600,7 @@ toketeru.Zn = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Po = function(number) {
         if (number =="boil"){
         return("962")
@@ -600,6 +624,7 @@ toketeru.Po = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Te = function(number) {
         if (number =="boil"){
         return("990")
@@ -623,6 +648,7 @@ toketeru.Te = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Mg = function(number) {
         if (number =="boil"){
         return("1090")
@@ -646,6 +672,7 @@ toketeru.Mg = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ba = function(number) {
         if (number =="boil"){
         return("1140")
@@ -669,6 +696,7 @@ toketeru.Ba = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Li = function(number) {
         if (number =="boil"){
         return("1347")
@@ -692,6 +720,7 @@ toketeru.Li = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Sr = function(number) {
         if (number =="boil"){
         return("1384")
@@ -715,6 +744,7 @@ toketeru.Sr = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Tl = function(number) {
         if (number =="boil"){
         return("1457")
@@ -738,6 +768,7 @@ toketeru.Tl = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Yb = function(number) {
         if (number =="boil"){
         return("1466")
@@ -761,6 +792,7 @@ toketeru.Yb = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ca = function(number) {
         if (number =="boil"){
         return("1484")
@@ -784,6 +816,7 @@ toketeru.Ca = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Bi = function(number) {
         if (number =="boil"){
         return("1560")
@@ -807,6 +840,7 @@ toketeru.Bi = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Eu = function(number) {
         if (number =="boil"){
         return("1597")
@@ -830,6 +864,7 @@ toketeru.Eu = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Tm = function(number) {
         if (number =="boil"){
         return("1727")
@@ -853,6 +888,7 @@ toketeru.Tm = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ra = function(number) {
         if (number =="boil"){
         return("1737")
@@ -876,6 +912,7 @@ toketeru.Ra = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Pb = function(number) {
         if (number =="boil"){
         return("1740")
@@ -899,6 +936,7 @@ toketeru.Pb = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Sb = function(number) {
         if (number =="boil"){
         return("1750")
@@ -922,6 +960,7 @@ toketeru.Sb = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Sm = function(number) {
         if (number =="boil"){
         return("1900")
@@ -945,6 +984,7 @@ toketeru.Sm = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Mn = function(number) {
         if (number =="boil"){
         return("1962")
@@ -968,6 +1008,7 @@ toketeru.Mn = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.In = function(number) {
         if (number =="boil"){
         return("2000")
@@ -992,6 +1033,7 @@ toketeru.In = function(number) {
     }
 
 }
+#' @export
 toketeru.Ag = function(number) {
         if (number =="boil"){
         return("2212")
@@ -1015,6 +1057,7 @@ toketeru.Ag = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Sn = function(number) {
         if (number =="boil"){
         return("2270")
@@ -1038,6 +1081,7 @@ toketeru.Sn = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Si = function(number) {
         if (number =="boil"){
         return("2355")
@@ -1061,6 +1105,7 @@ toketeru.Si = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ga = function(number) {
         if (number =="boil"){
         return("2403")
@@ -1084,6 +1129,7 @@ toketeru.Ga = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Al = function(number) {
         if (number =="boil"){
         return("2467")
@@ -1107,6 +1153,7 @@ toketeru.Al = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Er = function(number) {
         if (number =="boil"){
         return("2510")
@@ -1130,6 +1177,7 @@ toketeru.Er = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.B = function(number) {
         if (number =="boil"){
         return("2550")
@@ -1153,6 +1201,7 @@ toketeru.B = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Dy = function(number) {
         if (number =="boil"){
         return("2562")
@@ -1176,6 +1225,7 @@ toketeru.Dy = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Cu = function(number) {
         if (number =="boil"){
         return("2567")
@@ -1199,6 +1249,7 @@ toketeru.Cu = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Am = function(number) {
         if (number =="boil"){
         return("2607")
@@ -1223,6 +1274,7 @@ toketeru.Am = function(number) {
     }
 
 }
+#' @export
 toketeru.Cr = function(number) {
         if (number =="boil"){
         return("2672")
@@ -1246,6 +1298,7 @@ toketeru.Cr = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ho = function(number) {
         if (number =="boil"){
         return("2720")
@@ -1269,6 +1322,7 @@ toketeru.Ho = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ni = function(number) {
        if (number =="boil"){
         return("2732")
@@ -1292,6 +1346,7 @@ toketeru.Ni = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Fe = function(number) {
         if (number =="boil"){
         return("2750")
@@ -1315,6 +1370,7 @@ toketeru.Fe = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Au = function(number) {
         if (number =="boil"){
         return("2807")
@@ -1338,6 +1394,7 @@ toketeru.Au = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ge = function(number) {
         if (number =="boil"){
         return("2380")
@@ -1361,6 +1418,7 @@ toketeru.Ge = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Sc = function(number) {
         if (number =="boil"){
         return("2832")
@@ -1384,6 +1442,7 @@ toketeru.Sc = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Co = function(number) {
         if (number =="boil"){
         return("2870")
@@ -1407,6 +1466,7 @@ toketeru.Co = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Pd = function(number) {
        if (number =="boil"){
         return("2927")
@@ -1430,6 +1490,7 @@ toketeru.Pd = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Be = function(number) {
         if (number =="boil"){
         return("2927")
@@ -1453,6 +1514,7 @@ toketeru.Be = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Pm = function(number) {
         if (number =="boil"){
         return("3000")
@@ -1476,6 +1538,7 @@ toketeru.Pm = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Tb = function(number) {
         if (number =="boil"){
         return("3041")
@@ -1499,6 +1562,7 @@ toketeru.Tb = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Pr = function(number) {
         if (number =="boil"){
         return("3127")
@@ -1522,6 +1586,7 @@ toketeru.Pr = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Nd = function(number) {
         if (number =="boil"){
         return("3127")
@@ -1545,6 +1610,7 @@ toketeru.Nd = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ac = function(number) {
         if (number =="boil"){
         return("3200")
@@ -1568,6 +1634,7 @@ toketeru.Ac = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Gd = function(number) {
        if (number =="boil"){
         return("3233")
@@ -1591,6 +1658,7 @@ toketeru.Gd = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Pu = function(number) {
         if (number =="boil"){
         return("3235")
@@ -1614,6 +1682,7 @@ toketeru.Pu = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ce = function(number) {
         if (number =="boil"){
         return("3257")
@@ -1637,6 +1706,7 @@ toketeru.Ce = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ti = function(number) {
         if (number =="boil"){
         return("3287")
@@ -1660,6 +1730,7 @@ toketeru.Ti = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Lu = function(number) {
         if (number =="boil"){
         return("3315")
@@ -1683,6 +1754,7 @@ toketeru.Lu = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Y = function(number) {
         if (number =="boil"){
         return("3337")
@@ -1706,6 +1778,7 @@ toketeru.Y = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.V = function(number) {
         if (number =="boil"){
         return("3380")
@@ -1729,6 +1802,7 @@ toketeru.V = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.La = function(number) {
         if (number =="boil"){
         return("3469")
@@ -1752,6 +1826,7 @@ toketeru.La = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Rh = function(number) {
         if (number =="boil"){
         return("3727")
@@ -1775,6 +1850,7 @@ toketeru.Rh = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.U = function(number) {
         if (number =="boil"){
         return("3818")
@@ -1798,6 +1874,7 @@ toketeru.U = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Pt = function(number) {
         if (number =="boil"){
         return("3827")
@@ -1821,6 +1898,7 @@ toketeru.Pt = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ru = function(number) {
         if (number =="boil"){
         return("3900")
@@ -1844,6 +1922,7 @@ toketeru.Ru = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Np = function(number) {
         if (number =="boil"){
         return("3902")
@@ -1867,6 +1946,7 @@ toketeru.Np = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Zr = function(number) {
         if (number =="boil"){
         return("4377")
@@ -1890,6 +1970,7 @@ toketeru.Zr = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ir = function(number) {
         if (number =="boil"){
         return("4527")
@@ -1913,6 +1994,7 @@ toketeru.Ir = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Mo = function(number) {
         if (number =="boil"){
         return("4612")
@@ -1936,6 +2018,7 @@ toketeru.Mo = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Th = function(number) {
         if (number =="boil"){
         return("4790")
@@ -1959,6 +2042,7 @@ toketeru.Th = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.C = function(number) {
         if (number =="boil"){
         return("4827")
@@ -1982,6 +2066,7 @@ toketeru.C = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Tc = function(number) {
         if (number =="boil"){
         return("4877")
@@ -2005,6 +2090,7 @@ toketeru.Tc = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Nb = function(number) {
         if (number =="boil"){
         return("4927")
@@ -2028,6 +2114,7 @@ toketeru.Nb = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Os = function(number) {
         if (number =="boil"){
         return("5027")
@@ -2051,6 +2138,7 @@ toketeru.Os = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Hf = function(number) {
         if (number =="boil"){
         return("5400")
@@ -2074,6 +2162,7 @@ toketeru.Hf = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Ta = function(number) {
         if (number =="boil"){
         return("5425")
@@ -2097,6 +2186,7 @@ toketeru.Ta = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.Re = function(number) {
       if (number =="boil"){
         return("5627")
@@ -2120,6 +2210,7 @@ toketeru.Re = function(number) {
         return("gas")
     }
 }
+#' @export
 toketeru.W = function(number) {
         if (number =="boil"){
         return("5660")
