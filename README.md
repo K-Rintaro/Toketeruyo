@@ -2,6 +2,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # Toketeruyo
+<img src="https://img.shields.io/github/license/K-Rintaro/Toketeruyo">  <img src="https://img.shields.io/github/r-package/v/K-Rintaro/Toketeruyo"> <img src="https://img.shields.io/github/repo-size/K-Rintaro/Toketeruyo">
 
 <!-- badges: start -->
 
