@@ -1,3 +1,7 @@
+#' @param place degrees or "melt" or "boil"
+#' @return solid, liquid, gas or degrees
+#' @export
+
 toketeru.He = function(number) {
         if (number =="boil"){
         return("-269")
