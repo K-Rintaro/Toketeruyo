@@ -11,6 +11,8 @@ Toketeruyo is the R package.
 
 You can check boiling points and melting points of elements.
 
+npm package "Toketeru" is [here](https://github.com/K-Rintaro/Toketeru)
+
 ## Elements that Toketeruyo supports
 
 | Name chemical element | Symbol |
@@ -113,11 +115,19 @@ You can check boiling points and melting points of elements.
 
 ## Install
 
-You can install the released version of toketeruyo from
-[CRAN](https://CRAN.R-project.org) with:
+1. Use latest release
 
+Please download latest release(tar.gz) and run this code.
 ``` r
-install.packages("toketeruyo")
+install.packages("tar.gz FILE PATH", repos=NULL, type="source")
+```
+
+2. Use github_install
+
+(You need install "remotes" package.)
+```r
+library(remotes)
+github_install("K-Rintaro/Toketeruyo")
 ```
 
 ## Example
